@@ -23,7 +23,7 @@ class ModulesPage {
 
 // url = https://awsacademy.instructure.com/courses/${courseId}/modules/items/${ItemId}
 class ContentPage {
-    val iframe = element(byXpath("//*[@id='tool_content']"))
+    val iframe = element(byXpath("//*[@title='Launch AWS Academy Learner Lab']"))
 }
 
 // iframe inside ContentPage
